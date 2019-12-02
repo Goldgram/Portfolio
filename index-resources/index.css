@@ -1,14 +1,28 @@
 body {
-
+  background-color: grey;
 }
+.content-container {
+	margin: 0 auto;
+  width: 1200px;
+  padding: 20px;
+}
+
 header {
+  background-color: white;
+}
+.header-title {
 
 }
+.header-links {
+
+}
+
 #items {
 
 }
 .item {
-
+  width: 50%;
+  float: left;
 }
 .item-title {
 
@@ -30,4 +44,16 @@ header {
 }
 .item-link {
 
+}
+
+@media only screen and (max-width: 1240px) {
+	.content-container {
+		width: 980px;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+	.content-container {
+		width: calc(100% - 40px);
+  }
 }
