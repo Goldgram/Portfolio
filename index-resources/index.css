@@ -1,59 +1,125 @@
-body {
-  background-color: grey;
+* {
+  box-sizing: border-box;
 }
+body {
+  /* background-image: url("circles.svg"); */
+  background-image: url("triangles.svg");
+  /* background by SVGBackgrounds.com */
+  background-color: #ffffff;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: #0074D9;
+}
+
 .content-container {
 	margin: 0 auto;
   width: 1200px;
-  padding: 20px;
+  padding: 0 10px;
+}
+.big-font {
+  font-family: 'Francois One', sans-serif;
+}
+.clear-after:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.padding-bottom-5 {
+  padding-bottom: 5px;
 }
 
 header {
   background-color: white;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header-title {
-
+  font-size: 30px;
+  padding: 0 10px;
 }
 .header-links {
-
+  display: flex;
+  /* text-align: right; */
+  /* padding: 0 10px; */
+}
+.header-link {
+  text-align: right;
+  padding: 0 10px;
 }
 
 #items {
-
+  padding-top: 10px;
+  padding-bottom: 60px;
 }
 .item {
-  width: 50%;
   float: left;
+  width: calc(50% - 20px);
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
 }
 .item-title {
-
+  font-size: 22px;
+  padding-bottom: 10px;
 }
 .item-image {
-
+  width: 100%;
+  padding-bottom: 10px;
 }
 .item-text {
-
+  padding-bottom: 10px;
 }
 .item-tags {
-
+  padding-bottom: 5px;
 }
 .item-tag {
-
+  float: left;
+  border-radius: 4px;
+  color: white;
+  background-color: #0074D9;
+  font-size: 14px;
+  padding: 5px 8px;
+  margin: 0 5px 5px 0;
 }
 .item-links {
 
 }
-.item-link {
+.item-link {}
 
-}
-
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1199px) {
 	.content-container {
-		width: 980px;
+		width: 1000px;
   }
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1019px) {
 	.content-container {
-		width: calc(100% - 40px);
+		width: 100%;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .header-title {
+    padding-bottom: 10px;
+  }
+  .item {
+    width: calc(100% - 20px);
   }
 }

@@ -6,20 +6,23 @@
       ? `<img class="item-image" src="${item.image}">`
       : "";
 
-    const tagsDom = tags.length
-      ? tags.map(l =>
-          `<a href="${l.url}" target="_blank">
-            <div class="item-link">${l.name}</div>
-          </a>`
-        ).join("")
+    const tagDom = tags.map(t =>
+      `<a href="${t.url}" target="_blank">
+        <div class="item-tag">${t.name}</div>
+      </a>`
+    ).join("");
+
+    const tagsDom = tagDom
+      ? `<div class="item-tags clear-after">${tagDom}</div>`
       : "";
 
     const linksDom = links.length
-      ? links.map(t =>
-          `<a href="${t.url}" target="_blank">
-            <div class="item-tag">${t.name}</div>
+      ? links.map((l, i) => {
+          const clases = i !== links.length - 1 ? "padding-bottom-5": "";
+          return `<a href="${l.url}" target="_blank">
+            <div class="item-link ${clases}">${l.name} &#8250;</div>
           </a>`
-        ).join("")
+        }).join("")
       : "";
 
     return `<div class="item">
