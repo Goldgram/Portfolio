@@ -3,8 +3,11 @@
     const { title, image, text, tags = [], links = [] } = item;
 
     const imageDom = image
-      ? `<img class="item-image" src="index-resources/images/${item.image}">`
+      ? `<img class="item-image" src="index-resources/images/${image.src}">`
       : "";
+    const imageDomWithLink = image && image.url && imageDom
+      ? `<a href="${image.url}" target="_blank">${imageDom}</a>`
+      : imageDom
 
     const tagDom = tags.map(t =>
       `<a href="${t.url}" target="_blank">
@@ -27,7 +30,7 @@
 
     return `<div class="item">
       <div class="item-title">${title}</div>
-      ${imageDom}
+      ${imageDomWithLink}
       <div class="item-text">${text}</div>
       ${tagsDom}
       ${linksDom}
