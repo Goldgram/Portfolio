@@ -2,14 +2,13 @@
   box-sizing: border-box;
 }
 body {
+  background-color: lightgray;
+  background-image: url("images/triangles.svg");
   /* background-image: url("images/circles.svg"); */
   /* background-image: url("images/blueprint.svg"); */
   /* background-image: url("images/honeycomb.svg"); */
-  background-image: url("images/triangles.svg");
-  /* background by SVGBackgrounds.com */
-  background-color: #ffffff;
-  background-attachment: fixed;
   background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
