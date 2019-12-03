@@ -132,6 +132,12 @@ header {
   }
   .header-title {
     padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .header-links {
+    width: 100%;
+    justify-content: space-between;
   }
   #items {
     -webkit-column-count: 1;
@@ -143,9 +149,9 @@ header {
 @media only screen and (max-width: 419px) {
   .header-links {
     flex-direction: column;
-    /* align-items: flex-start; */
+    align-items: center;
   }
   .header-links .first {
-    padding-bottom: 5px;
+    padding: 0 0 5px 0;
   }
 }
