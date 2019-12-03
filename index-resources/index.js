@@ -3,7 +3,7 @@
     const { title, image, text, tags = [], links = [] } = item;
 
     const imageDom = image
-      ? `<img class="item-image" src="${item.image}">`
+      ? `<img class="item-image" src="index-resources/images/${item.image}">`
       : "";
 
     const tagDom = tags.map(t =>
