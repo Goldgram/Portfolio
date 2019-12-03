@@ -15,7 +15,7 @@ const siteData = [
   },
   {
     title: "Turtle Challenge",
-    // image: ".jpg",
+    image: "turtle.jpg",
     text: "Abc",
     tags: [
       { name: "tag", url: "" }
@@ -42,6 +42,7 @@ const siteData = [
   },
   {
     title: "Project Euler",
+    image: "euler.jpg",
     text: "Abc",
     tags: [
       { name: "tag", url: "" }
