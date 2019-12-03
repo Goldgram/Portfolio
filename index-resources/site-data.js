@@ -28,7 +28,7 @@ const siteData = [
       { name: "Functional Programming", url: "https://en.wikipedia.org/wiki/Functional_programming" }
     ],
     links: [
-      { name: "Code on Github", url: "https://github.com/Goldgram/TurtleChallenge" },
+      { name: "Code on Github", url: "https://github.com/Goldgram/TurtleChallenge" }
     ]
   },
   {
@@ -46,7 +46,7 @@ const siteData = [
     ],
     links: [
       { name: "Live Link", url: "http://dublinkendo.com/" },
-      { name: "Code on Github", url: "https://github.com/Goldgram/DublinKendo" },
+      { name: "Code on Github", url: "https://github.com/Goldgram/DublinKendo" }
     ]
   },
   {
@@ -76,11 +76,11 @@ const siteData = [
       { name: "Algorithm", url: "https://en.wikipedia.org/wiki/Algorithm" },
       { name: "PNG", url: "https://en.wikipedia.org/wiki/Portable_Network_Graphics" },
       { name: "SVG", url: "https://en.wikipedia.org/wiki/Scalable_Vector_Graphics" },
-      { name: "Pokemon", url: "https://bulbapedia.bulbagarden.net/wiki/Who%27s_That_Pok%C3%A9mon%3F" },
+      { name: "Pokemon", url: "https://bulbapedia.bulbagarden.net/wiki/Who%27s_That_Pok%C3%A9mon%3F" }
     ],
     links: [
       { name: "Live Link", url: "https://willbrennan.tech/png-mask/" },
-      { name: "Code on Github", url: "https://github.com/Goldgram/PngMask" },
+      { name: "Code on Github", url: "https://github.com/Goldgram/PngMask" }
     ]
   },
   {
@@ -97,7 +97,7 @@ const siteData = [
     ],
     links: [
       { name: "Live Link", url: "https://willbrennan.tech/responsive-example/" },
-      { name: "Code on Github", url: "https://github.com/Goldgram/InterviewProjects#zg-interview-project" },
+      { name: "Code on Github", url: "https://github.com/Goldgram/InterviewProjects#zg-interview-project" }
     ]
   },
   {
@@ -109,7 +109,7 @@ const siteData = [
       { name: "JavaScript", url: "https://www.javascript.com/" }
     ],
     links: [
-      { name: "Code on Github", url: "https://github.com/Goldgram/Portfolio" },
+      { name: "Code on Github", url: "https://github.com/Goldgram/Portfolio" }
     ]
   }
 ];
