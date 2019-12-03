@@ -73,9 +73,9 @@ const siteData = [
     },
     text: 'This single page site highlights what the png mask algorithm does. Based on the "Who\'s that Pokemon?" trope, it maps a PNG and generates a SVG dynamically.',
     tags: [
-      { name: "Algorithm", url: "https://en.wikipedia.org/wiki/Algorithm" },
       { name: "PNG", url: "https://en.wikipedia.org/wiki/Portable_Network_Graphics" },
       { name: "SVG", url: "https://en.wikipedia.org/wiki/Scalable_Vector_Graphics" },
+      { name: "Algorithm", url: "https://en.wikipedia.org/wiki/Algorithm" },
       { name: "Pokemon", url: "https://bulbapedia.bulbagarden.net/wiki/Who%27s_That_Pok%C3%A9mon%3F" }
     ],
     links: [
