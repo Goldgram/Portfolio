@@ -97,6 +97,7 @@ header {
 .item-tags {
   padding-bottom: 12px;
   color: #757575;
+  font-weight: lighter;
 }
 .item-image {
   width: 100%;
