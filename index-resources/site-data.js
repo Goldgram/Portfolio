@@ -106,7 +106,7 @@ const siteData = [
       src: "code-snippets.jpg",
       url: "https://willbrennan.tech/code-snippets/"
     },
-    text: "AAA",
+    text: "A group of UI code snippets. This includes cross browser Checkboxes, Select drop-downs, and responsive YouTube embed examples.",
     tags: [
       { name: "JQuery", url: "https://jquery.com/" },
       { name: "Snippets", url: "https://en.wikipedia.org/wiki/Snippet_(programming)" },
