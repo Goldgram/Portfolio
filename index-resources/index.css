@@ -36,7 +36,7 @@ a {
 }
 
 .grey-blue-link:link, .grey-blue-link:visited {
-  color: #757575;
+  color: #666666;
 }
 .grey-blue-link:hover, .grey-blue-link:active {
   color: #0074D9;
@@ -96,7 +96,7 @@ header {
 }
 .item-tags {
   padding-bottom: 12px;
-  color: #757575;
+  color: #666666;
   font-weight: lighter;
 }
 .item-image {
