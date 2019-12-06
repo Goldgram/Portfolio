@@ -50,6 +50,23 @@ const siteData = [
     ]
   },
   {
+    title: "Responsive Sample",
+    image: {
+      src: "responsive.jpg",
+      url: "https://willbrennan.tech/responsive-example/"
+    },
+    text: "A responsive example based on a snapshot design. A one page site with minimal complexity using a few front end libraries.",
+    tags: [
+      { name: "Masonry.js", url: "https://masonry.desandro.com/" },
+      { name: "LESS", url: "http://lesscss.org/" },
+      { name: "Bootstrap", url: "https://getbootstrap.com/" }
+    ],
+    links: [
+      { name: "Live Link", url: "https://willbrennan.tech/responsive-example/" },
+      { name: "Code on Github", url: "https://github.com/Goldgram/InterviewProjects#zg-interview-project" }
+    ]
+  },
+  {
     title: "Project Euler",
     image: {
       src: "euler.jpg"
@@ -84,20 +101,20 @@ const siteData = [
     ]
   },
   {
-    title: "Responsive Sample",
+    title: "Code Snippets",
     image: {
-      src: "responsive.jpg",
-      url: "https://willbrennan.tech/responsive-example/"
+      src: "code-snippets.jpg",
+      url: "https://willbrennan.tech/code-snippets/"
     },
-    text: "A responsive example based on a snapshot design. A one page site with minimal complexity using a few front end libraries.",
+    text: "AAA",
     tags: [
-      { name: "Masonry.js", url: "https://masonry.desandro.com/" },
-      { name: "LESS", url: "http://lesscss.org/" },
-      { name: "Bootstrap", url: "https://getbootstrap.com/" }
+      { name: "JQuery", url: "https://jquery.com/" },
+      { name: "Snippets", url: "https://en.wikipedia.org/wiki/Snippet_(programming)" },
+      { name: "YouTube", url: "https://www.youtube.com/" },
     ],
     links: [
-      { name: "Live Link", url: "https://willbrennan.tech/responsive-example/" },
-      { name: "Code on Github", url: "https://github.com/Goldgram/InterviewProjects#zg-interview-project" }
+      { name: "Live Link", url: "https://willbrennan.tech/code-snippets/" },
+      { name: "Code on Github", url: "https://github.com/Goldgram/Web-Snippets" }
     ]
   },
   {
