@@ -3,7 +3,12 @@
 }
 body {
   background-color: lightgray;
-  background-image: url("images/triangles-white-blue.svg");
+
+  background-image: url("images/triangles-light-blue-4.svg");
+  /* background-image: url("images/triangles-light-blue-3.svg"); */
+  /* background-image: url("images/triangles-light-blue-2.svg"); */
+  /* background-image: url("images/triangles-light-blue.svg"); */
+  /* background-image: url("images/triangles-white-blue.svg"); */
   /* background-image: url("images/triangles-white.svg"); */
   /* background-image: url("images/triangles-orange.svg"); */
   /* background-image: url("images/triangles.svg"); */
